@@ -3,7 +3,27 @@ Java 11 in Action
 
 Please refer https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-java-11-jigsaw/ first.
 
-# Features
+# Official features
+
+* Nest-based access control
+* Dynamic class-file constraints
+* Improve Aarch64 Intrinsics
+* Epsilon: A No-Op Garbage Collector
+* Remove the Java EE and CORBA Modules
+* HTTP Client (Standard)
+* Local variable syntax for lambda parameters
+* Key agreement with Curve25519 and Curve448
+* Unicode 10 support
+* Flight recorder
+* ChaCha20 and Poly1305 cryptographic algorithms
+* Launch single-file source-code programs
+* Low-overhead heap profiling
+* TLS 1.3 support
+* ZGC: A scalable low-latency garbage collector (Experimental)
+* Deprecate the Nashorn JavaScript Engine
+* Deprecate the Pack200 Tools and API
+
+# Demo
 
 * Project Amber:
 
