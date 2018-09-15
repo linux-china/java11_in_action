@@ -9,7 +9,8 @@ Please refer https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-jav
 * Dynamic class-file constraints
 * Improve Aarch64 Intrinsics
 * Epsilon: A No-Op Garbage Collector
-* Remove the Java EE and CORBA Modules
+* Remove enterprise APIs: JAXB, JAX-WS, JAX-WS Annotations, CORBA, JTA, JAF
+* JavaFX: no longer bundled with Java 11, and with OpenJFX and added as dependency
 * HTTP Client (Standard)
 * Local variable syntax for lambda parameters
 * Key agreement with Curve25519 and Curve448
@@ -20,7 +21,8 @@ Please refer https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-jav
 * Low-overhead heap profiling
 * TLS 1.3 support
 * ZGC: A scalable low-latency garbage collector (Experimental)
-* Deprecate the Nashorn JavaScript Engine
+* Removed: Applets, Java Web Start
+* Deprecate the Nashorn JavaScript Engine, replaced with Graal.js
 * Deprecate the Pack200 Tools and API
 
 # Demo
@@ -38,7 +40,7 @@ Please refer https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-jav
 * data class
 * Launch Single-File Source-Code Programs
 ```
-java src/main/java/org/mvnsearch/App.java
+java --source 11 src/main/java/org/mvnsearch/App.java
 ```
 
 # References
