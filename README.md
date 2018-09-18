@@ -11,7 +11,7 @@ Please refer https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-jav
 * Epsilon: A No-Op Garbage Collector
 * Remove the Java EE and CORBA Modules
 * HTTP Client (Standard)
-* Local variable syntax for lambda parameters
+* Local variable syntax for lambda parameters: https://blog.jetbrains.com/idea/2018/06/java-11-in-intellij-idea-2018-2/
 * Key agreement with Curve25519 and Curve448
 * Unicode 10 support
 * Flight recorder
