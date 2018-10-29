@@ -26,7 +26,7 @@
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
-            <version>3.2.8</version>
+            <version>3.2.9</version>
         </dependency>
         <!--missing modules-->
         <dependency>
